@@ -76,6 +76,7 @@ if intro.lower() == "ready":
     y = Color()
     z = bids()
     turtle_screen()
+
     def onclick_leo(x,y):
         pygame.mixer.music.load('leonardo.mp3')
         pygame.mixer.music.play()
@@ -109,7 +110,6 @@ if intro.lower() == "ready":
         def disappear():
             t.clear()
         turtle.ontimer(disappear, 2100)
-    
     winner = race(colors)
     if winner == y:
         x = z * 4

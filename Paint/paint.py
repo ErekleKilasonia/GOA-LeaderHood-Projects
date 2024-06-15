@@ -529,9 +529,7 @@ def colors_shapes():
 colors_shapes()
 
 
-
-    
-    
     
 
+    
 screen.mainloop()
