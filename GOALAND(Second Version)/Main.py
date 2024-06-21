@@ -94,6 +94,7 @@ def G():
         T.goto(x,y)
         x -= 5
         G += 1
+    print(G)
     return G
 def O():
     O = 0
@@ -168,7 +169,7 @@ def O():
         y += 10
         x -=5
         O += 1
-    
+    print(O)
     return O
 def A():
     A = 0
@@ -202,6 +203,7 @@ def A():
         T.goto(x,y)
         x += 6 
         A += 1
+    print(A)
     return A
 def s():
     s = 0
@@ -268,7 +270,7 @@ def s():
         y += 10
         x +=5
         s += 1
-    
+    print(s)
     return s
 def Aa():
     a = 0
@@ -339,6 +341,7 @@ def Aa():
         y += 13
         x += 5
         a += 1
+    print(a)
     return a
 def u():
     u = 0
@@ -487,7 +490,7 @@ def u():
         y += 8
         x += 7 
         u += 1
-    
+    print(u)
     return u
 def k():
     k = 0
@@ -582,6 +585,7 @@ def k():
         y += 2
         x -= 3
         k += 1
+    print(k)
     return k
 def e():
     e = 0
@@ -676,6 +680,7 @@ def e():
         x += 3
         y += 8
         e += 1
+    print(e)
     return e
 def t():
     t = 0
@@ -817,6 +822,7 @@ def t():
         y += 5
         x -= 1
         t += 1  
+    print(t)
     return t
 def E():
     e = 0
@@ -911,6 +917,7 @@ def E():
         x += 3
         y += 8
         e += 1
+    print(e)
     return e   
 def S():
     s = 0
@@ -977,6 +984,7 @@ def S():
         y += 10
         x +=5
         s += 1
+    print(s)
     
     return s 
 def o():
@@ -1084,6 +1092,7 @@ def o():
         x -= 4
         y -= 10 
         s += 1
+    print(s)
     return s
 def A2():
     a = 0
@@ -1154,6 +1163,7 @@ def A2():
         y += 13
         x += 5
         a += 1
+    print(a)
     return a
 
 
