@@ -150,7 +150,7 @@ def create_firework4(x,y):
         pygame.mixer.music.load("firework.mp3")
         pygame.mixer.music.play()
         trace = listn[4]
-        x = random.randint(-250, -70)
+        x = random.randint(-280, -200)
         y = random.randint(100, 300)
         colors = ["red", "yellow", "blue", "green", "purple", "orange"]
         color = random.choice(colors)
