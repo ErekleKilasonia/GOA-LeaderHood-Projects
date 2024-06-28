@@ -1,0 +1,8 @@
+Name:erekle
+Email:@
+Password:erekle
+Balance:400
+Name:mamuka
+Email:@@
+Password:mamuka
+Balance:0
