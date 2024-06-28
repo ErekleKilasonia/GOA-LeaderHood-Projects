@@ -121,30 +121,42 @@ def Settings():
     match x:
         case "1":
             z = input("You can't undo the changes. You will loose entire account with money if you agree enter 'Y' else 'N':  ")
-            while z != "Y" or z!= "N":
+            while z != "Y" and z!= "N":
                 print("Invalid input!")
                 z = input("You cann't undo the changes. You will loose entire account with money if you agree enter 'Y' else 'N':  ")
-            match z:
-                case "Y":
-                    with open("datas.txt") as file:
-                        z = file.read()
-                    x = z.replace(n_line + e_line + p_line + b_line,"" + "\n")
-                    r1 = open("datas.txt", "w")
-                    r1.write(x)
-                    r1.close()
-                    print("Sad to see you go😥")
-                    time.sleep(3)
-                    print("Succesfuly deleted the account!")
-                case "N":
-                    after()
+            if z == "Y":
+                with open("datas.txt") as file:
+                    z = file.read()
+                x = z.replace(n_line + e_line + p_line + b_line,"" + "\n")
+                r1 = open("datas.txt", "w")
+                r1.write(x)
+                r1.close()
+                print("Sad to see you go😥")
+                time.sleep(3)
+                print("Succesfuly deleted the account!")
+            elif z == "N":
+                after()
         case "2":
-            old_password = input("Enter your old password: ")
-            print(p_line[10:-1])
-            while old_password != p_line[10:-1] and old_password != "back":
+            old_password = getpass.getpass("Enter your old password: ")
+            print(p_line[9:-1])
+            while old_password != p_line[9:-1] :
                 old_balance = getpass.getpass("Enter your old password(if you want to exit to main menu enter back) : ")
+                if old_password == "back":
+                    break
             if old_password == "back":
                 after()
-            
+            new_password = getpass.getpass("Enter your new password: ")
+            while len(new_password) <= 5:
+                print("Enter bigger password!")
+                new_password = getpass.getpass("Enter your new password: ")
+            with open("datas.txt") as file:
+                k = file.read()
+            u = k.replace(e_line + p_line, e_line + "Password:" + new_password + "\n")
+            r1 = open("datas.txt", "w")
+            r1.write(u)
+            r1.close()
+            print("succsesfuly changed the password!")
+            after()
             
                 
     
