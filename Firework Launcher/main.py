@@ -33,7 +33,6 @@ def firework_traces():
 listn = firework_traces()
 
 def draw_firework(x, y, color):
-
     firework_turtle.goto(x, y)
     firework_turtle.color(color)
     firework_turtle.begin_fill()
