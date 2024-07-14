@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Work Sans";
+  width: 100%;
+  height: 100vh;
+  background-image: url(../background-pattern-desktop.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1920px 350px;
+  background-color: hsl(275, 100%, 97%);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.paper {
+  width: 620px;
+  height: 600px;
+  background-color: white;
+  border-radius: 20px;
+  filter: drop-shadow(1px 30px 20px rgba(140, 105, 145, 0.2));
+}
+
+.head {
+  display: flex;
+  position: relative;
+  top: 40px;
+  padding-left: 50px;
+}
+
+h1 {
+  color: hsl(292, 42%, 14%);
+  font-size: 45px;
+  margin-left: 20px;
+}
+
+.info {
+  padding-left: 50px;
+}
+h3 {
+  font-size: 18px;
+  color: hsl(292, 42%, 14%);
+}
+.infoHead {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.infoHead img {
+  position: relative;
+  right: 50px;
+}
+.info p {
+  color: #a194a2;
+  font-size: 16px;
+}
+h3:hover {
+  color: #ad28eb;
+  cursor: pointer;
+}
+
+.infoHead img:hover {
+  cursor: pointer;
+}
+
+*::selection {
+  color: white;
+  background: #ad28eb;
+}
+
+.mentor {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 1;
+  transform: translateY(0);
+}
+.mentor.hidden {
+  opacity: 0;
+  transform: translateY(-15px);
+}
+.price p {
+  color: #a194a2;
+  font-size: 16px;
+}
+
+.price {
+  padding-left: 50px;
+}
+
+.priceHead {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.priceHead img {
+  position: relative;
+  right: 50px;
+}
+.priceHead img:hover {
+  cursor: pointer;
+}
+
+.offers {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.offers.open2 {
+  opacity: 1;
+  transform: translateY(-30px);
+}
+
+.offers.open {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.priceHead {
+  transform: translateY(-30px);
+  transition: transform 0.5s ease;
+}
+.priceHead.down {
+  transform: translateY(-90px);
+}
+
+.offers.downText {
+  transform: translateY(-90px);
+}
+.projects{
+    padding-left: 50px;
+    transform: translateY(0px);
+}
+
+.projects p{
+    transform: translateY(20px);
+    color: #a194a2;
+}
