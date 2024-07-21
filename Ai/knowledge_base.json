@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "question": "Hello",
+      "answer": "Hi there"
+    },
+    {
+      "question": "how are you?",
+      "answer": "I am good and you?"
+    },
+    {
+      "question": "me too",
+      "answer": "good"
+    },
+    {
+      "question": "what is capital of georgia",
+      "answer": "Tbilisi"
+    },
+    {
+      "question": "is George gay",
+      "answer": "yes George is gay"
+    },
+    {
+      "question": "where is Nigeria located",
+      "answer": "it is located in Africa"
+    }
+  ]
+}
