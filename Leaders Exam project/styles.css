@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    height: 80vh;
+    background-color: hsl(210, 46%, 95%);
+}
+.man1 {
+    background-color: hsl(263, 55%, 52%);
+    width: 600px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 1px 30px rgba(0, 0, 0, 0.181);
+}
+.qutationimage{
+    display: inline;
+    margin-left: 400px;
+}
+
+.man1image{
+    transform: translate(30px,-80px);
+}
+
+.man1image img{
+    border: 2px solid hsla(0, 0%, 81%, 0.527);
+    border-radius: 50px;
+}
+
+.man1 .name{
+    font-size: 13px;
+    font-family: Barlow Semi Condensed;
+    transform: translate(80px,-116px);
+    color: hsl(210, 46%, 95%);
+}
+
+.man1 .verified{
+    font-size: 11px;
+    font-family: Barlow Semi Condensed;
+    transform: translate(80px,-115px);
+    color: hsla(0, 0%, 81%, 0.527);
+}
+
+.man1 .job{
+    transform: translate(30px,-95px);
+    font-family: Barlow Semi Condensed;
+    color: hsl(210, 46%, 95%);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.man1 .complete{
+    transform: translate(30px,-75px);
+    font-family: Barlow Semi Condensed;
+    color: hsla(0, 0%, 81%, 0.527);
+    font-size: 15px;
+}
+
+.man3 {
+    background-color: hsl(217, 19%, 35%);
+    width: 300px;
+    height: 300px;
+    transform: translate(850px,-300px);
+    border-radius: 10px;
+    box-shadow: 5px 1px 30px rgba(0, 0, 0, 0.181);
+}
+.man3image{
+    transform: translate(30px,20px);
+}
+
+.man3image img{
+    border: 2px solid hsla(0, 0%, 81%, 0.527);
+    border-radius: 50px;
+}
+
+.man3 .name{
+    font-size: 13px;
+    font-family: Barlow Semi Condensed;
+    transform: translate(80px,-15px);
+    color: hsl(210, 46%, 95%);
+}
+
+.man3 .verified{
+    font-size: 11px;
+    font-family: Barlow Semi Condensed;
+    transform: translate(80px,-15px);
+    color: hsla(0, 0%, 81%, 0.527);
+}
+
+.man3 .job{
+    transform: translate(30px,10px);
+    font-family: Barlow Semi Condensed;
+    color: hsl(210, 46%, 95%);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.man3 .complete{
+    transform: translate(30px,30px);
+    font-family: Barlow Semi Condensed;
+    color: hsla(0, 0%, 81%, 0.527);
+    font-size: 15px;
+}
+.woman1 {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 630px;
+    transform: translate(1200px,-600px);
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.152);
+}
+.woman1image{
+    transform: translate(30px,20px);
+}
+
+.woman1image img{
+    border-radius: 50px;
+}
+.woman1 .name{
+    font-size: 13px;
+    font-family: Barlow Semi Condensed;
+    transform: translate(80px,-15px);
+    color: hsl(217, 19%, 35%);
+}
+
+.woman1 .verified{
+    font-size: 11px;
+    font-family: Barlow Semi Condensed;
+    transform: translate(80px,-15px);
+    color: hsla(217, 19%, 35%, 0.605);
+}
+.woman1 .job{
+    transform: translate(30px,10px);
+    font-family: Barlow Semi Condensed;
+    color: hsl(217, 19%, 35%);
+    font-size: 22px;
+    font-weight: 500;
+}
+.woman1 .complete{
+    transform: translate(30px,30px);
+    font-family: Barlow Semi Condensed;
+    color: hsla(217, 19%, 35%, 0.769);
+    font-size: 16px;
+}
+.woman2 {
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 280px;
+    transform: translate(200px,-880px);
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.097);
+}
+.woman2image{
+    transform: translate(30px,20px);
+}
+.woman2image img{
+    border-radius: 50px;
+}
+.woman2 .name{
+    font-size: 13px;
+    font-family: Barlow Semi Condensed;
+    transform: translate(80px,-15px);
+    color: hsl(217, 19%, 35%);
+}
+
+.woman2 .verified{
+    font-size: 11px;
+    font-family: Barlow Semi Condensed;
+    transform: translate(80px,-15px);
+    color: hsla(217, 19%, 35%, 0.605);
+}
+.woman2 .job{
+    transform: translate(30px,5px);
+    font-family: Barlow Semi Condensed;
+    color: hsl(217, 19%, 35%);
+    font-size: 22px;
+    font-weight: 500;
+}
+.woman2 .complete{
+    transform: translate(30px,10px);
+    font-family: Barlow Semi Condensed;
+    color: hsla(217, 19%, 35%, 0.769);
+    font-size: 16px;
+}
+.man2 {
+    background-color: hsl(219, 29%, 14%);
+    width: 600px;
+    height: 280px;
+    transform: translate(550px,-1160px);
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.097);
+}
+.man2image{
+    transform: translate(30px,20px);
+}
+.man2image img{
+    border: 2px solid hsla(0, 0%, 81%, 0.527);
+    border-radius: 50px;
+}
+
+.man2 .name{
+    font-size: 13px;
+    font-family: Barlow Semi Condensed;
+    transform: translate(80px,-15px);
+    color: hsl(210, 46%, 95%);
+}
+
+.man2 .verified{
+    font-size: 11px;
+    font-family: Barlow Semi Condensed;
+    transform: translate(80px,-15px);
+    color: hsla(0, 0%, 81%, 0.527);
+}
+
+.man2 .job{
+    transform: translate(30px,0px);
+    font-family: Barlow Semi Condensed;
+    color: hsl(210, 46%, 95%);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.man2 .complete{
+    transform: translate(30px,10px);
+    font-family: Barlow Semi Condensed;
+    color: hsla(0, 0%, 81%, 0.527);
+    font-size: 15px;
+}
